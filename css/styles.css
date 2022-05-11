@@ -1,0 +1,106 @@
+
+body{
+  margin:0;
+  background: #C4DDFF;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+/* font-family: 'Koulen', cursive;
+font-family: 'Readex Pro', sans-serif; */}
+.btn{
+  background: #34d9c8;
+
+  background-image: linear-gradient(to bottom, #34d9c8, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #367ba3;
+
+  background-image: linear-gradient(to bottom, #367ba3, #3498db);
+  text-decoration: none;
+}
+
+hr{
+  border: dotted #34d9c8 6px;
+  width: 25%;
+  border-bottom: none;
+}
+
+h1{
+  margin: 0 auto 0 auto;
+  font-size: 500%;
+  color: #66BFBF;
+
+}
+h2{
+  font-family: 'Koulen', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Koulen', cursive;
+  color: #11999E;
+}
+.top-cloud{
+  padding-top: 100px;
+
+  position: relative;
+  right: -400px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  margin-left: auto;
+  left:300px;
+}
+.skill-row{
+  position: relative;
+  text-align: center;
+
+}
+.my-photo{
+  height:200px;
+  width:200px;
+}
+.skills-photo{
+  height:400px;
+  width:400px;
+float: left;
+margin-top: auto;
+}
+.contact-photo{
+  height:400px;
+  width:400px;
+float: right;
+margin-top: auto;
+}
+
+.profile{
+  margin-bottom: 50px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+
+.pro{
+  text-decoration: underline;
+}
+.skills{
+  width: 50%;
+  margin: 50px auto 100px auto;
+}
+.contactinfo{
+  width: 50%;
+  margin: 50px auto 100px auto;
+}
